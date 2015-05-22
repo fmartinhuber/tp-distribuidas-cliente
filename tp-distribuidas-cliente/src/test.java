@@ -7,7 +7,6 @@ import dto.ClienteDto;
 import dto.HabilitadoDto;
 import rmi.IAdministradorVarios;
 import rmi.IAdministradorViaje;
-//Prueba Dario
 
 public class test {
 
@@ -39,9 +38,7 @@ public class test {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		//Probando commit con otra forma de importar el proyecto
+	
 		System.out.println("Prueba RMI");
 		ClienteDto cliente = new ClienteDto("dni", 34000000);
 		IAdministradorVarios admin = new test().obtenerStub();
