@@ -5,6 +5,7 @@ bin/
 .settings/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+hibernate.properties
 
 # Package Files #
 *.jar
