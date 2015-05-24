@@ -40,7 +40,7 @@ public class test {
 	public static void main(String[] args) {
 	
 		System.out.println("Prueba RMI");
-		ClienteDto cliente = new ClienteDto("dni", 34000000);
+		ClienteDto cliente = new ClienteDto("dni", "34000000");
 		IAdministradorVarios admin = new test().obtenerStub();
 		try {
 			admin.altaCliente(cliente);
