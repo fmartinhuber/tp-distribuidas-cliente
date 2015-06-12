@@ -4,7 +4,6 @@ import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 
 import dto.ClienteDto;
-import dto.HabilitadoDto;
 import rmi.IAdministradorVarios;
 import rmi.IAdministradorViaje;
 
